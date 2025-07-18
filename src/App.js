@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const Contact = ()=>{
+  return (
+    <div>
+      <h2>Contact</h2>
+      <p>Contact...</p>
+    </div>
+  );
+}
+const Tasks = ()=>{
+  return (
+    <div>
+      <h2>Tasks</h2>
+      <p>Tasks...</p>
+    </div>
+  );
+}
+const Home = ()=>{
+  return (
+    <div>
+      <h2>🏡Home</h2>
+      <p>Home...</p>
+    </div>
+  );
+}
+const App = ()=>{
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Router DOM</h1>
+      <Home/>
+      <Tasks/>
+      <Contact/>
     </div>
   );
 }
